@@ -1,3 +1,17 @@
 * { font-family: 'Poppins', sans-serif;}
 
 @import "tailwindcss";
+
+/* Custom scrollbar styles */
+* {
+  /* Firefox */
+  scrollbar-width: none;
+  
+  /* Internet Explorer and Edge */
+  -ms-overflow-style: none;
+}
+
+*::-webkit-scrollbar {
+  /* Chrome, Safari, Opera */
+  display: none;
+}
